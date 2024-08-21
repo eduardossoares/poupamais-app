@@ -58,7 +58,7 @@ export function Home() {
                         <div className="flex flex-col items-center">
                             <span className="font-bold text-xs">Saldo Atual</span>
                             {isVisible
-                                ? <span className="font-bold text-xl">R$0,00</span>
+                                ? <span className="font-bold text-xl">R$2504,00</span>
                                 : <span className="font-bold text-xl">******</span>
                             }
 
@@ -71,7 +71,7 @@ export function Home() {
                             <div className="flex flex-col text-center">
                                 <span className="font-bold text-xs">Ganhos</span>
                                 {isVisible
-                                    ? <span className="font-bold text-xl">R$0,00</span>
+                                    ? <span className="font-bold text-xl">R$2,600,00</span>
                                     : <span className="font-bold text-xl">******</span>
                                 }
                             </div>
@@ -79,9 +79,9 @@ export function Home() {
                         <div className="flex">
                             <TiArrowSortedDown color="red" size={42} />
                             <div className="flex flex-col text-center">
-                                <span className="font-bold text-xs">Ganhos</span>
+                                <span className="font-bold text-xs">Gastos</span>
                                 {isVisible
-                                    ? <span className="font-bold text-xl">R$0,00</span>
+                                    ? <span className="font-bold text-xl">R$96,00</span>
                                     : <span className="font-bold text-xl">******</span>
                                 }
                             </div>
